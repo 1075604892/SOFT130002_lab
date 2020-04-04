@@ -1,0 +1,94 @@
+nav{
+	background-color: black;
+	font-weight: 900;
+    font-size: 125%;
+}
+
+.action{
+    background-color: #CDCD00;
+}
+
+.line {
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 125%;
+}
+
+.fly{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+
+}
+
+
+.fly button:hover{
+	background: #FF8C00;
+}
+
+
+.circlebtn{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    background-color: #FAF0E6;
+    border-width: 1px;
+    border-color: black;
+}
+
+.circlebtn:hover{
+    background: #FF8C00;
+}
+
+.images table{
+	width: 100%;
+	margin: auto;
+    background-color: #B2DFEE;
+}
+
+.images td{
+   	width: 350px;
+	height: 350px;
+	float: top;
+	padding: 20px;
+	border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.images img{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.tdimage{
+    background: rgba(240,255,255,0.3);
+}
+
+.tdimage:hover{
+    background: rgba(240,255,255,0.5);
+}
+
+.tdimage p{
+    overflow: hidden;/*超出部分隐藏*/
+    text-overflow: ellipsis;/*超出部分显示省略号*/
+    display: -webkit-box;
+    -webkit-line-clamp: 5;/*可以写三行*/
+    -webkit-box-orient: vertical;
+    margin:5px auto;
+}
+
+.title{
+	font-size: 200%;
+	font-weight: 900;
+}
+
+.content{
+    font-size: 100%;
+    font-weight: 900;
+}
