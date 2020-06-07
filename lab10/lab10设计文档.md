@@ -50,6 +50,6 @@
 
 针对成功的 SELECT、SHOW、DESCRIBE 或 EXPLAIN 查询，将返回一个 mysqli_result 对象。针对其他成功的查询，将返回 TRUE。如果失败，则返回 FALSE。
 
-###使用PDO中的预处理语句prepare()和execute()
+### 使用PDO中的预处理语句prepare()和execute()
 
 预处理语句的好处是：可以防止MySQL注入，并且查询只需一次，避免重复分析，提高效率
